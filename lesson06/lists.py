@@ -4,51 +4,53 @@ data = ['Dave', 42, True]
 
 emptylist = []
 
-print("Dave" in emptylist)
+print("Dave" in users)  # True
+print("Dave" in data)  # True
+print("Dave" in emptylist)  # False
 
 print(users[0])
 print(users[-2])
 
 print(users.index('Sara'))
 
-print(users[0:2])
+print(users[0:2])  # Not including the 2 index item
 print(users[1:])
 print(users[-3:-1])
 
 print(len(data))
 
-users.append('Elsa')
+users.append('Elsa')  # add item to the end of the list
 print(users)
 
-users += ['Jason']
+users += ['Jason']  # add one list to another, has to be a list
 print(users)
 
-users.extend(['Robert', 'Jimmy'])
+users.extend(['Robert', 'Jimmy'])  # another method add one list to another list
 print(users)
 
 # users.extend(data)
 # print(users)
 
-users.insert(0, 'Bob')
+users.insert(0, 'Bob')  # insert an item to a specific location
 print(users)
 
-users[2:2] = ['Eddie', 'Alex']
+users[2:2] = ['Eddie', 'Alex']  #  to add a few items in the second position in out list.
 print(users)
 
-users[1:3] = ['Robert', 'JPJ']
+users[1:3] = ['Robert', 'JPJ']  # to replace items in our list on specific location with other items, this is slice.
 print(users)
 
 users.remove('Bob')
 print(users)
 
-print(users.pop())
+print(users.pop())  # remove the last value in out list and return this item.
 print(users)
 
-del users[0]
+del users[0]  # delete specific index in our list.
 print(users)
 
-# del data
-data.clear()
+# del data  --> delete the entire list.
+data.clear()  #  delete the data but list still exist
 print(data)
 
 users[1:2] = ['dave']
@@ -65,9 +67,10 @@ print(nums)
 # nums.sort(reverse=True)
 # print(nums)
 
-print(sorted(nums, reverse=True))
+print(sorted(nums, reverse=True)) # sorted function return a new list and not change the original list.
 print(nums)
 
+# diffrant ways to copy a list
 numscopy = nums.copy()
 mynums = list(nums)
 mycopy = nums[:]
@@ -98,9 +101,9 @@ newlist.append('Neil')
 newtuple = tuple(newlist)
 print(newtuple)
 
-(one, *two, hey) = anothertuple
+(one, *two, hey) = anothertuple # the * will take the rest of the values in the tuple into a list
 print(one)
 print(two)
 print(hey)
 
-print(anothertuple.count(2))
+print(anothertuple.count(2)) # count how many times the value appear in the tuple

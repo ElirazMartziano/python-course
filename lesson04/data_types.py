@@ -52,7 +52,7 @@ print(first.lower())
 print(first.upper())
 print(first)
 
-print(multiline.title())
+print(multiline.title())  #  Capitalize first letter of each word
 print(multiline.replace("good", "ok"))
 print(multiline)
 
@@ -61,9 +61,9 @@ multiline += "                                        "
 multiline = "                  " + multiline
 print(len(multiline))
 
-print(len(multiline.strip()))
-print(len(multiline.lstrip()))
-print(len(multiline.rstrip()))
+print(len(multiline.strip()))  # Remove leading and trailing whitespace
+print(len(multiline.lstrip()))  # Remove leading whitespace (left side)
+print(len(multiline.rstrip()))  # Remove trailing whitespace (right side)
 
 print("")
 

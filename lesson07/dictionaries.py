@@ -1,4 +1,4 @@
-# Dictionaries
+# Dictionaries - key/value pairs, unordered, mutable, can be nested
 band = {
     "vocals": "Plant",
     "guitar": "Page"
@@ -30,7 +30,7 @@ print("triangle" in band)
 
 # Change values
 band["vocals"] = "Coverdale"
-band.update({"bass": "JPJ"})
+band.update({"bass": "JPJ"}) # update or add a new key/value pair
 
 print(band)
 
@@ -41,7 +41,7 @@ print(band)
 band["drums"] = "Bonham"
 print(band)
 
-print(band.popitem())  # tuple
+print(band.popitem())  # remove last add and return it as a tuple
 print(band)
 
 # Delete and clear
@@ -133,18 +133,18 @@ one = {1, 2, 3}
 two = {5, 6, 7}
 
 mynewset = one.union(two)
-print(mynewset)
+print(mynewset)  # {1, 2, 3, 5, 6, 7}
 
 # Keep only the duplicates
 one = {1, 2, 3}
 two = {2, 3, 4}
 
 one.intersection_update(two)
-print(one)
+print(one)  # {2, 3}
 
 # Keep everything except the duplicates
 one = {1, 2, 3}
 two = {2, 3, 4}
 
 one.symmetric_difference_update(two)
-print(one)
+print(one)  # {1, 4}

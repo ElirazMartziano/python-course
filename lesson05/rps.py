@@ -3,6 +3,10 @@ import random
 from enum import Enum
 
 
+"""
+This is a simple Rock, Paper, Scissors game.
+"""
+
 class RPS(Enum):
     ROCK = 1
     PAPER = 2
@@ -18,9 +22,15 @@ player = int(playerchoice)
 if player < 1 or player > 3:
     sys.exit("You must enter 1, 2, or 3.")
 
-computerchoice = random.choice("123")
+computerchoice = random.choice("123")  #  randomly select 1, 2, or 3
 
 computer = int(computerchoice)
+
+# different ways to get Enum values and names
+# print(RPS(2))  --> the output is RPS.PAPER
+# print(RPS.ROCK) --> the output is RPS.ROCK
+# print(RPS['ROCK']) --> the output is RPS.ROCK
+# print(RPS['ROCK'].value) --> the output is 1
 
 print("")
 print("You chose " + str(RPS(player)).replace('RPS.', '') + ".")
