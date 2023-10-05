@@ -30,13 +30,13 @@ names = ["Dave", "Sara", "John"]
 #         continue
 #     print(x)
 
-# for x in range(4):
+# for x in range(4): # 0, 1, 2, 3
 #     print(x)
 
-# for x in range(2, 4):
+# for x in range(2, 4): # 2, 3
 #     print(x)
 
-for x in range(5, 101, 5):
+for x in range(5, 101, 5):  # 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ... 100
     print(x)
 else:
     print("Glad that\'s over!")

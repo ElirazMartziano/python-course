@@ -21,6 +21,6 @@ def randomfunfact():
 
     print(funfacts[int(index)])
 
-
+# without this, the code in this file will run when imported
 if __name__ == "__main__":
     randomfunfact()

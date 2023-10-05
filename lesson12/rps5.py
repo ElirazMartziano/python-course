@@ -82,6 +82,14 @@ def rps():
     return play_rps
 
 
-play = rps()
+play = rps()  # play is a funcֺֺtion object that holds the function play_rps
+              # inside it and can be called like any other function object
+              # (e.g. play()) to execute the code inside the function play_rps
+              # (i.e. the code inside the function object play) and return the
+              # result of that code execution (i.e. the result of the code
+              # inside the function object play_rps) to the caller of the
+              # function object play (i.e. the caller of the function
+              # object play_rps) which in this case is the variable play
+              # (i.e. the variable play is the caller of the function object play_rps)
 
 play()

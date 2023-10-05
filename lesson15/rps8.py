@@ -1,3 +1,4 @@
+# To run this use terminal command: py rps8.py -n <name> where <name> is player name.
 import sys
 import random
 from enum import Enum

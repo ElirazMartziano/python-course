@@ -15,7 +15,7 @@ total = sum(7, 2)
 print(total)
 
 
-def multiple_items(*args):
+def multiple_items(*args):  # *args is a tuple
     print(args)
     print(type(args))
 
@@ -23,7 +23,7 @@ def multiple_items(*args):
 multiple_items("Dave", "John", "Sara")
 
 
-def mult_named_items(**kwargs):
+def mult_named_items(**kwargs): # **kwargs is a dictionary
     print(kwargs)
     print(type(kwargs))
 

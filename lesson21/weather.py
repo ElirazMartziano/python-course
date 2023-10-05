@@ -11,13 +11,13 @@ def get_current_weather():
 
     city = input("\nPlease enter a city name:\n")
 
-    request_url = f'https://api.openweathermap.org/data/2.5/weather?appid={os.getenv("API_KEY")}&q={city}&units=imperial'
+    request_url = f'https://api.openweathermap.org/data/2.5/weather?appid={os.getenv("API_KEY")}&q={city}&units=metric'
 
     # print(request_url)
 
     weather_data = requests.get(request_url).json()
 
-    # pprint(weather_data)
+    # pprint(weather_data)  # This is pretty print to make it easier to read the json data
 
     print(f'\nCurrent weather for {weather_data["name"]}:')
     print(f'\nThe temp is {weather_data["main"]["temp"]:.1f}°')

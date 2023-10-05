@@ -1,8 +1,6 @@
-
-
 from math import pi
 import sys
-import random as rdm
+import random as rdm  # alias for random module 
 from enum import Enum
 import kansas
 from rps7 import rock_paper_scissors

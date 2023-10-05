@@ -6,36 +6,17 @@
 
 ### Author Links
 
-👋 Hello, I'm Dave Gray.
-
-👉 [My Courses](https://courses.davegray.codes/)
-
-✅ [Check out my YouTube Channel with hundreds of tutorials](https://www.youtube.com/DaveGrayTeachesCode).
-
-🚩 [Subscribe to my channel](https://bit.ly/3nGHmNn)
-
-☕ [Buy Me A Coffee](https://buymeacoffee.com/DaveGray)
+👋 Hello, I'm Eliraz Martziano.
 
 🚀 Follow Me:
 
-- [Twitter](https://twitter.com/yesdavidgray)
-- [LinkedIn](https://www.linkedin.com/in/davidagray/)
-- [Blog](https://yesdavidgray.com)
-- [Reddit](https://www.reddit.com/user/DaveOnEleven)
+- [LinkedIn](www.linkedin.com/in/eliraz-martziano)
 
 ---
 
 ### Description
 
-📺 [YouTube Playlist](https://bit.ly/dg-beginners-python) for this repository.
-
-🚀 This repository shares ALL of the resources referenced during the Python for Beginners tutorial series.
-
----
-
-### 🎓 Academic Honesty
-
-**DO NOT COPY FOR AN ASSIGNMENT** - Avoid plagiarism and adhere to the spirit of this [Academic Honesty Policy](https://www.freecodecamp.org/news/academic-honesty-policy/).
+This is the resources files of the "Python for Beginners" course from [freeCodeCamp.org](https://www.youtube.com/watch?v=qwAFL1597eM).
 
 ---
 

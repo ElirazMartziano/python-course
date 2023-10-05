@@ -2,10 +2,10 @@ from flask import Flask, render_template, request
 from weather import get_current_weather
 from waitress import serve
 
-app = Flask(__name__)
+app = Flask(__name__)  # Create a Flask app object called "app" 
 
 
-@app.route('/')
+@app.route('/')  # Create a route decorator called "/", this is the home page
 @app.route('/index')
 def index():
     return render_template('index.html')
@@ -18,7 +18,7 @@ def get_weather():
     # Check for empty strings or string with only spaces
     if not bool(city.strip()):
         # You could render "City Not Found" instead like we do below
-        city = "Kansas City"
+        city = "Beer Sheva"
 
     weather_data = get_current_weather(city)
 

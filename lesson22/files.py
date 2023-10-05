@@ -6,17 +6,17 @@ import os
 
 # Read - error if it doesn't exist
 
-f = open("names.txt")
-# print(f.read())
-# print(f.read(4))
+f = open("names.txt")  # open the file for reading (default)
+# print(f.read())  # read the entire file
+# print(f.read(4))  # read the first 4 characters
 
-# print(f.readline())
+# print(f.readline()) # read one line at a time (first line)
 # print(f.readline())
 
 for line in f:
     print(line)
 
-f.close()
+f.close()  # close the file
 
 try:
     f = open("names.txt")
